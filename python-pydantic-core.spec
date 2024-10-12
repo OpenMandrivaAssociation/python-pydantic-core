@@ -12,6 +12,7 @@ License:	MIT
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(maturin)
+BuildRequires:	python%{pyver}dist(typing-extensions)
 BuildRequires:	rust
 BuildRequires:	cargo
 
