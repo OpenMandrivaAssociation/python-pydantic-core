@@ -13,6 +13,7 @@ Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(maturin)
 BuildRequires:	rust
+BuildRequires:	cargo
 
 %description
 Core functionality for Pydantic validation and serialization
