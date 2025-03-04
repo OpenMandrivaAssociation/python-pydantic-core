@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:		python-pydantic-core
-Version:	2.24.1
+Version:	2.30.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/pydantic-core/pydantic_core-%{version}.tar.gz
 # To hell with ****ing rust!
