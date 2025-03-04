@@ -37,5 +37,5 @@ EOF
 %py_install
 
 %files
-%{python_sitearch}/_pydantic_core
+#{python_sitearch}/_pydantic_core
 %{python_sitearch}/pydantic_core-*.*-info
