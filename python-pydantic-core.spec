@@ -2,7 +2,7 @@
 
 Name:		python-pydantic-core
 Version:	2.30.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/p/pydantic-core/pydantic_core-%{version}.tar.gz
 Source1:	vendor.tar.xz
 Summary:	Core functionality for Pydantic validation and serialization
