@@ -1,3 +1,3 @@
 sources:
-  pydantic_core-2.41.5.tar.gz: 93fe602b5da5937864b13da4adaee0b55e0fa949
-  vendor.tar.xz: be0518449346cb99111abd99bc50f2ffeb0120c9
+  pydantic_core-2.46.1.tar.gz: 1f0a41a5bb9c6af5520d91f6e135b7565b211e30
+  pydantic_core-2.46.1-vendor.tar.xz: 9f216055b434f51df16ad2919ae8e36d0e6af6a9
