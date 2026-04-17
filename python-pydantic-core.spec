@@ -3,7 +3,7 @@
 %define oname pydantic_core
 
 Name:		python-pydantic-core
-Version:	2.46.1
+Version:	2.46.2
 Release:	1
 Summary:	Core functionality for Pydantic validation and serialization
 License:	MIT
