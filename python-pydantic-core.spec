@@ -3,7 +3,7 @@
 %define oname pydantic_core
 
 Name:		python-pydantic-core
-Version:	2.46.2
+Version:	2.46.3
 Release:	1
 Summary:	Core functionality for Pydantic validation and serialization
 License:	MIT
@@ -28,6 +28,14 @@ Core functionality for Pydantic validation and serialization
 tar xf %{S:1}
 # Prep vendored crates
 %cargo_prep -v vendor/
+# create .cargo/config file from vendoring output
+cat >>.cargo/config <<EOF
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
+EOF
 
 %build -p
 export RUSTFLAGS="-lpython%{pyver}"
