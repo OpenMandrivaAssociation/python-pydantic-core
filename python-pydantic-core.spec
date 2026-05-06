@@ -2,8 +2,12 @@
 %define module pydantic-core
 %define oname pydantic_core
 
+# NOTE update python-pydantic AFTER updating this package, both packages are
+# NOTE version matched/dependant, but python-pydantic requires this package to exist in
+# NOTE the package repositories first in order to pass build tests.
+
 Name:		python-pydantic-core
-Version:	2.46.3
+Version:	2.46.4
 Release:	1
 Summary:	Core functionality for Pydantic validation and serialization
 License:	MIT
