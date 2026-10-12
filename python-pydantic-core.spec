@@ -8,7 +8,7 @@
 
 Name:		python-pydantic-core
 Version:	2.46.4
-Release:	1
+Release:	2
 Summary:	Core functionality for Pydantic validation and serialization
 License:	MIT
 Group:		Development/Python
